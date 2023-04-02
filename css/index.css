@@ -1,0 +1,283 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*
+Cabezero
+*/
+.header {
+    background-color: rgba(48, 52, 63, 1);
+    display: block;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav_menu {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+}
+
+.nav_menu ul {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.nav_link {
+    list-style: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 1rem;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.nav_link a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+}
+
+.nav_link :hover {
+    color: rgb(204, 61, 10);
+}
+
+/*
+Body Banner de Cabecera
+*/
+.container_noticias {
+    display: flex;
+    padding: 40px;
+    flex-direction: column;
+    justify-content: space-between;
+    background: url("../img/funkos-banner.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header_noticia {
+    display: contents;
+    padding: 20px;
+}
+
+.header_noticia_titulo {
+
+    font-size: 2rem;
+    color: #fff;
+}
+
+.header_noticia_p {
+
+    display: block;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.btn_shop {
+    background-color: #fff;
+    border: #fff solid 2px;
+    width: 100px;
+    text-align: center;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.btn_shop:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+/*
+Body Contaniner
+*/
+.container__Body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container__articulo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__articulo_contenido {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    justify-content: center;
+}
+
+.container__articulo__img {
+    display: flex;
+}
+
+.container__articulo_title {
+    font-size: 2.5rem;
+}
+
+.container__articulo_p {
+    font-size: 20px;
+}
+
+.container__articulo_hr {
+    background-color: rgba(255, 51, 51, 1);
+    height: 3px;
+    padding-top: 5px;
+    margin-top: 2em;
+}
+
+.container__articulo2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.container__articulo_contenido2 {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    order: 2;
+}
+
+.container__articulo__img2 {
+    display: flex;
+    order: 1;
+    justify-content: space-evenly;
+}
+
+.container_ultimosLanza {
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+}
+
+.container__ultimosLanza_h2 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.container__ultimosLanza_ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2px;
+    list-style: none;
+}
+
+.container_articulo_a {
+    text-decoration: none;
+}
+
+.container_ultimosLanza__articulo {
+    display: flex;
+    flex-direction: column;
+}
+
+.container_articulo_Banner {
+    display: flex;
+    background-color: #f01e1e;
+    margin-left: auto;
+    color: white;
+    font-size: 20px;
+    height: 25px;
+    justify-content: right;
+    width: 4em;
+
+}
+
+.categoria {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #333333;
+    margin-top: 2px;
+}
+
+.titulo_funkop {
+
+    color: #111111;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.precio_funkop{
+    color:#333333;
+    font-weight: 400;
+}
+.cuotas_interes{
+    font-weight: 700;
+    color:#1D84B5;
+}
+
+/*FOOTER*/
+
+.footer_container{
+    padding: 20px;
+    background: #30343F;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_container_sub{
+    display: flex;
+}
+.nav_menu_footer{
+    display: flex;
+    order: 1;
+   
+}
+.footer_container_img{
+    display: flex;
+    order:2;
+}
+
+.footer_container_p{
+    color:#fff;
+    display: flex;
+    align-items: end;
+   
+}
+
+/*BTN SECTION*/
+.btn_colection {
+    background-color: rgba(48, 52, 63, 1);
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 3px;
+    border-radius: 30px;
+    border: 1px solid #fff;
+    text-decoration: none;
+    width: 560px;
+}
+
+.btn_colection:hover {
+    background-color: rgb(94, 103, 125);
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
